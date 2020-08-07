@@ -1,24 +1,56 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
 import './App.css';
+import Title from './Title';
+import Problem from './Problem';
+import Explanation from './Explanation';
+import Solutions from './Solutions';
+import Form from './Form';
+import CityEmail from './CityEmail';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Title></Title>
+      <Router>
+        <div>
+          <nav>
+            <ul className='NavBar'>
+              <li className='NavBarItem'><Link to='/' className='NavBarItemLink' autofocus >Problem</Link></li>
+              <li className='NavBarItem'><Link to='/Explanation' className='NavBarItemLink'>Explanation</Link></li>
+              <li className='NavBarItem'><Link to='/Solutions' className='NavBarItemLink'>Solutions</Link></li>
+              <li className='NavBarItem'><Link to='/Form' className='NavBarItemLink'>Improve Us</Link></li>
+              <li className='NavBarItem'><Link to='/CityEmail' className='NavBarItemLink'>Improve the City</Link></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <Switch>
+            <Route exact path='/'>
+              <Problem />
+            </Route>
+            <Route path='/Explanation'>
+              <Explanation />
+            </Route>
+            <Route path='/Solutions'>
+              <Solutions />
+            </Route>
+            <Route path='/Form'>
+              <Form />
+            </Route>
+            <Route path='/CityEmail'>
+              <CityEmail />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+      <Footer></Footer>
     </div>
   );
 }

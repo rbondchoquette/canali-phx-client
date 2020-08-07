@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Zilla+Slab:ital,wght@1,300&display=swap');
+
+.FormText {
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ImproveForm {
+    font-family: 'Zilla Slab', serif;
+    width: 35%;
+    padding: 20px 10px; 
+    box-sizing: border-box;
+    border: 2px solid rgba(229, 210, 149, 1);
+    background-color: rgba(255, 255, 255, .8);
+    resize: none;
+}
+
+.ImproveForm:focus{
+    border: 3px solid rgba(111, 146, 184, 1);
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.FormButton {
+    font-family: 'Abril Fatface', cursive;
+    background-color: rgba(255, 255, 255, .8);
+    color: rgba(111, 146, 184, 1);
+    font-size: 20px;
+    border: 1px solid rgba(111, 146, 184, .8);
+    padding: 10px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.FormButton:hover {
+    box-shadow: 3px 3px 15px rgba(229, 210, 149, 1);
+}

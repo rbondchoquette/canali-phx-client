@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap');
+
+.NavBar {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.NavBarItemLink {
+    text-decoration: none; 
+    border-bottom: 5px solid rgba(229, 210, 149, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.NavBarItem {
+    font-family: 'Zilla Slab', serif;
+    text-transform: uppercase;
+    display: inline;
+    margin: 10px; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.NavBarItemLink:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(111, 146, 184, 1);
+    font-size: 25px;
+    border-bottom: none;
 }
 
-.App-link {
-  color: #61dafb;
+.NavBarItemLink:focus {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(111, 146, 184, 1);
+    font-size: 25px;
+    border-bottom: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.BodyText {
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Zilla Slab', serif;
+}
+
+.emphasis {
+    font-weight: bold;
+    color: rgba(111, 146, 184, 1);
+    font-style: italic;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 1);
+    padding-bottom: 0.5px;
 }
