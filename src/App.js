@@ -22,7 +22,7 @@ function App() {
         <div>
           <nav>
             <ul className='NavBar'>
-              <li className='NavBarItem'><Link to='/' className='NavBarItemLink' autofocus >Problem</Link></li>
+              <li className='NavBarItem'><Link to='/' className='NavBarItemLink'>Problem</Link></li>
               <li className='NavBarItem'><Link to='/Explanation' className='NavBarItemLink'>Explanation</Link></li>
               <li className='NavBarItem'><Link to='/Solutions' className='NavBarItemLink'>Solutions</Link></li>
               <li className='NavBarItem'><Link to='/Form' className='NavBarItemLink'>Improve Us</Link></li>

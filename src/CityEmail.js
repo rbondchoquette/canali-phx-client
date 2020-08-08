@@ -7,7 +7,7 @@ function sendMail(event) {
 
   event.preventDefault();
 
-  let address = 'mailto:me@example.com?subject=Canali PHX&body=';
+  let address = 'mailto:mayor.gallego@phoenix.gov?subject=Canali PHX&body=';
 
   let body = document.getElementById('CityForm').value
 
@@ -19,9 +19,9 @@ function sendMail(event) {
 function CityEmail() {
     return (
     <div className='EmailText'>
-        <p>Tell the City how you'd like to solve this problem.</p> 
+        <p>Tell Mayor Gallego how you'd like to solve this problem.</p> 
         <form>
-          <textarea className="CityForm" type="text" placeholder={defaulttext} id="CityForm"></textarea><br /><br />
+          <textarea className="CityForm" type="text" placeholder={defaulttext} id="CityForm" autoFocus></textarea><br /><br />
           <button className='EmailButton' onClick={sendMail}>send</button>
         </form>
     </div>

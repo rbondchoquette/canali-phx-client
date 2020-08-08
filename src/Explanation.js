@@ -6,7 +6,7 @@ function Explanation() {
     <div className="ExplanationText">
         <p className='BodyText'>
           First, our canals are <span className='emphasis'>true utilities</span>, unlike like those in San Antonio or Los Angeles.
-          Every other canal you might hope to inspire our city is, in literal sense, useless. 
+          Every other canal you might hope to inspire our city is, in a literal sense, useless. 
           Phoenix canals <span className='emphasis'>built this city</span>. 
           Amerstam's canals, on the other hand, were a defensive-moat (and <span className='emphasis'>truly disgusting</span> for 800 years).<br/><br/>
           Second, the City of <span className='emphasis'>Phoenix does not have much say</span> in how the canals are designed or run.

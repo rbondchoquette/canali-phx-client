@@ -25,7 +25,7 @@
 
 .EmailButton {
     font-family: 'Abril Fatface', cursive;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, 1);
     color: rgba(111, 146, 184, 1);
     font-size: 20px;
     border: 1px solid rgba(111, 146, 184, .8);
@@ -35,5 +35,5 @@
 }
 
 .EmailButton:hover {
-    box-shadow: 3px 3px 15px rgba(229, 210, 149, 1);
+    box-shadow: 5px 5px 15px rgba(229, 210, 149, 1);
 }
