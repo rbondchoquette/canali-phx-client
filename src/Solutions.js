@@ -21,28 +21,28 @@ function Solutions() {
         <div>
           <nav>
             <ul className='SubNavBar'>
-              <li className='SubNavBarItem'><Link to='/Solution/'className='SubNavBarItemLink'>One</Link></li>
-              <li className='SubNavBarItem'><Link to='/Solution/SolutionTwo' className='SubNavBarItemLink'>Two</Link></li>
-              <li className='SubNavBarItem'><Link to='/Solution/SolutionThree' className='SubNavBarItemLink'>Three</Link></li>
-              <li className='SubNavBarItem'><Link to='/Solution/SolutionFour' className='SubNavBarItemLink'>Four</Link></li>
+              <li className='SubNavBarItem'><Link to='/Solutions'className='SubNavBarItemLink'>One</Link></li>
+              <li className='SubNavBarItem'><Link to='/Solutions/SolutionTwo' className='SubNavBarItemLink'>Two</Link></li>
+              <li className='SubNavBarItem'><Link to='/Solutions/SolutionThree' className='SubNavBarItemLink'>Three</Link></li>
+              <li className='SubNavBarItem'><Link to='/Solutions/SolutionFour' className='SubNavBarItemLink'>Four</Link></li>
             </ul>
           </nav>
         </div>
         <div className="SolutionsText">
           <Switch>
-            <Route exact path='/Solution/'>
+            <Route exact path='/Solutions'>
               <SolutionOne></SolutionOne>
               <CounterOne></CounterOne>
             </Route>
-            <Route path='/Solution/SolutionTwo'>
+            <Route path='/Solutions/SolutionTwo'>
               <SolutionTwo></SolutionTwo>
               <CounterTwo></CounterTwo>
             </Route>
-            <Route path='/Solution/SolutionThree'>
+            <Route path='/Solutions/SolutionThree'>
               <SolutionThree></SolutionThree>
               <CounterThree></CounterThree>
             </Route>
-            <Route path='/Solution/SolutionFour'>
+            <Route path='/Solutions/SolutionFour'>
               <SolutionFour></SolutionFour>
               <CounterFour></CounterFour>
             </Route>
