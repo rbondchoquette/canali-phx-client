@@ -23,10 +23,10 @@ function App() {
           <nav>
             <ul className='NavBar'>
               <li className='NavBarItem'><Link to='/' className='NavBarItemLink'>Problem</Link></li>
-              <li className='NavBarItem'><Link to='/Explanation' className='NavBarItemLink'>Explanation</Link></li>
-              <li className='NavBarItem'><Link to='/Solutions' className='NavBarItemLink'>Solutions</Link></li>
-              <li className='NavBarItem'><Link to='/Form' className='NavBarItemLink'>Improve Us</Link></li>
-              <li className='NavBarItem'><Link to='/CityEmail' className='NavBarItemLink'>Improve the City</Link></li>
+              <li className='NavBarItem'><Link to='/explanation' className='NavBarItemLink'>Explanation</Link></li>
+              <li className='NavBarItem'><Link to='/solutions' className='NavBarItemLink'>Solutions</Link></li>
+              <li className='NavBarItem'><Link to='/form' className='NavBarItemLink'>Improve Us</Link></li>
+              <li className='NavBarItem'><Link to='/cityemail' className='NavBarItemLink'>Improve the City</Link></li>
             </ul>
           </nav>
         </div>
@@ -35,16 +35,16 @@ function App() {
             <Route exact path='/'>
               <Problem />
             </Route>
-            <Route path='/Explanation'>
+            <Route path='/explanation'>
               <Explanation />
             </Route>
-            <Route path='/Solutions'>
+            <Route path='/solutions'>
               <Solutions />
             </Route>
-            <Route path='/Form'>
+            <Route path='/form'>
               <Form />
             </Route>
-            <Route path='/CityEmail'>
+            <Route path='/cityemail'>
               <CityEmail />
             </Route>
           </Switch>

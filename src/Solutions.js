@@ -21,28 +21,28 @@ function Solutions() {
         <div>
           <nav>
             <ul className='SubNavBar'>
-              <li className='SubNavBarItem'><Link to='/Solutions'className='SubNavBarItemLink'>One</Link></li>
-              <li className='SubNavBarItem'><Link to='/Solutions/SolutionTwo' className='SubNavBarItemLink'>Two</Link></li>
-              <li className='SubNavBarItem'><Link to='/Solutions/SolutionThree' className='SubNavBarItemLink'>Three</Link></li>
-              <li className='SubNavBarItem'><Link to='/Solutions/SolutionFour' className='SubNavBarItemLink'>Four</Link></li>
+              <li className='SubNavBarItem'><Link to='/solutions'className='SubNavBarItemLink'>One</Link></li>
+              <li className='SubNavBarItem'><Link to='/solutions/solutiontwo' className='SubNavBarItemLink'>Two</Link></li>
+              <li className='SubNavBarItem'><Link to='/solutions/solutionthree' className='SubNavBarItemLink'>Three</Link></li>
+              <li className='SubNavBarItem'><Link to='/solutions/solutionfour' className='SubNavBarItemLink'>Four</Link></li>
             </ul>
           </nav>
         </div>
         <div className="SolutionsText">
           <Switch>
-            <Route exact path='/Solutions'>
+            <Route exact path='/solutions'>
               <SolutionOne></SolutionOne>
               <CounterOne></CounterOne>
             </Route>
-            <Route path='/Solutions/SolutionTwo'>
+            <Route path='/solutions/solutiontwo'>
               <SolutionTwo></SolutionTwo>
               <CounterTwo></CounterTwo>
             </Route>
-            <Route path='/Solutions/SolutionThree'>
+            <Route path='/solutions/solutionthree'>
               <SolutionThree></SolutionThree>
               <CounterThree></CounterThree>
             </Route>
-            <Route path='/Solutions/SolutionFour'>
+            <Route path='/solutions/solutionfour'>
               <SolutionFour></SolutionFour>
               <CounterFour></CounterFour>
             </Route>
