@@ -8,3 +8,14 @@
     margin-bottom: 20px;
     text-shadow: 5px 5px 15px rgba(229, 210, 149, 1);
 }
+
+@media screen and (max-width: 600px) {
+    .Title {
+        font-family: 'Notable', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 20px;
+        text-shadow: 5px 5px 15px rgba(229, 210, 149, 1);
+    }
+}
