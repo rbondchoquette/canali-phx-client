@@ -37,6 +37,46 @@
     border-bottom: none;
 }
 
+@media screen and (max-width: 600px) {
+
+    .NavBar {
+        list-style: none;
+        text-align: center;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    
+    .NavBarItemLink {
+        text-decoration: none; 
+        border-bottom: 3px solid rgba(229, 210, 149, 1);
+        color: rgba(255, 255, 255, 1);
+        font-size: 20px;
+    }
+    
+    .NavBarItem {
+        font-family: 'Zilla Slab', serif;
+        text-transform: uppercase;
+        display: inline;
+        margin: 5px; 
+    }
+    
+    .NavBarItemLink:hover {
+        text-decoration: none;
+        font-weight: bolder;
+        color: rgba(111, 146, 184, 1);
+        font-size: 20px;
+        border-bottom: none;
+    }
+    
+    .NavBarItemLink:focus {
+        text-decoration: none;
+        font-weight: bolder;
+        color: rgba(111, 146, 184, 1);
+        font-size: 20px;
+        border-bottom: none;
+    }
+}
+
 .BodyText {
     text-align: justify;
     margin-top: 30px;
