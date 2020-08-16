@@ -1,6 +1,6 @@
 .FooterText {
     font-family: 'Zilla Slab', serif;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: lowercase;
     text-align: center;
     padding-top: 3px;
@@ -16,4 +16,24 @@
     color: rgba(255, 255, 255, 1);
 }
 
-/*probably should add in rule for position: fixed if text is too long or something*/
+@media screen and (max-width: 600px) {
+    .FooterText {
+        font-family: 'Zilla Slab', serif;
+        font-size: 13px;
+        text-transform: lowercase;
+        text-align: center;
+        padding-top: 3px;
+        bottom: 0;
+        left: 0;
+        padding-bottom: 3px;
+        position: fixed;
+        background-color: rgba(111, 146, 184, .75);
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .FooterLink {
+        color: rgba(255, 255, 255, 1);
+    }
+}
