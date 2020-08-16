@@ -6,3 +6,11 @@
     font-family: 'Abril Fatface', cursive;
     font-size: 25px;
 }
+
+@media screen and (max-width: 600px) {
+    .SolutionHeader {
+        text-align: center;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 16px;
+    }
+}

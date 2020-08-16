@@ -1,5 +1,5 @@
 import React from 'react';
-import './SolutionThree.css';
+import './Solution.css';
 
 function SolutionThree() {
     return (

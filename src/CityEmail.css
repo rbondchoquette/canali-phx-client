@@ -37,3 +37,43 @@
 .EmailButton:hover {
     box-shadow: 5px 5px 15px rgba(229, 210, 149, 1);
 }
+
+@media screen and (max-width: 600px) {
+    .EmailText {
+        font-family: 'Zilla Slab', serif;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .CityForm {
+        font-family: 'Zilla Slab', serif;
+        width: 40%;
+        padding: 15px 5px; 
+        box-sizing: border-box;
+        border: 2px solid rgba(229, 210, 149, 1);
+        background-color: rgba(255, 255, 255, .8);
+        resize: none;
+    }
+    
+    .CityForm:focus{
+        border: 3px solid rgba(111, 146, 184, 1);
+        background-color: rgba(255, 255, 255, 1);
+        outline: none;
+    }
+    
+    .EmailButton {
+        font-family: 'Abril Fatface', cursive;
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(111, 146, 184, 1);
+        font-size: 15px;
+        border: 1px solid rgba(111, 146, 184, .8);
+        padding: 7px;
+        text-align: center;
+        text-transform: lowercase;
+    }
+    
+    .EmailButton:hover {
+        box-shadow: 5px 5px 15px rgba(229, 210, 149, 1);
+    }
+}

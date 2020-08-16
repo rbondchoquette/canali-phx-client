@@ -21,7 +21,7 @@ function CityEmail() {
     <div className='EmailText'>
         <p>Tell Mayor Gallego how you'd like to solve this problem.</p> 
         <form>
-          <textarea className="CityForm" type="text" placeholder={defaulttext} id="CityForm" autoFocus></textarea><br /><br />
+          <textarea className="CityForm" type="text" placeholder={defaulttext} id="CityForm"></textarea><br /><br />
           <button className='EmailButton' onClick={sendMail}>send</button>
         </form>
     </div>

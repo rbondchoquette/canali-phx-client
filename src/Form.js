@@ -28,7 +28,7 @@ class Form extends React.Component {
       <div className="FormText">
           <p>Tell us how you'd like to solve this problem.</p>
           <form>
-            <textarea className="ImproveForm" type="text" placeholder="What did we miss?" value={this.state.substance} onChange={this.handleChangeOpinion} autoFocus></textarea><br /><br />
+            <textarea className="ImproveForm" type="text" placeholder="What did we miss?" value={this.state.substance} onChange={this.handleChangeOpinion}></textarea><br /><br />
             <button className='FormButton' id='FormSubmit' onClick={this.handleIncludeOpinion}>Send</button>
           </form>
       </div>
