@@ -14,6 +14,15 @@ class CounterOne extends React.Component {
         };
     }
 
+    componentDidMount = async () => {
+        const vote = await api.getVoteOne();
+
+        this.setState({
+            count: vote.data.data.count
+        })
+    }
+
+
     handleClick = async () => {
         if(wasClicked === false) {
 
@@ -31,14 +40,6 @@ class CounterOne extends React.Component {
                   .then(window.alert('Voted Counted!')) 
             }
         }
-    }
-
-    componentDidMount = async () => {
-        const vote = await api.getVoteOne();
-
-        this.setState({
-            count: vote.data.data.count
-        })
     }
 
     render () {

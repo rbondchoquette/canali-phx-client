@@ -12,6 +12,14 @@ class CounterTwo extends React.Component {
             count: ''
         };
     }
+    
+    componentDidMount = async () => {
+        const vote = await api.getVoteTwo();
+
+        this.setState({
+            count: vote.data.data.count
+        })
+    }
 
     handleClick = async () => {
         if(wasClicked === false) {
@@ -30,14 +38,6 @@ class CounterTwo extends React.Component {
                   .then(window.alert('Voted Counted!')) 
             }
         }
-    }
-
-    componentDidMount = async () => {
-        const vote = await api.getVoteTwo();
-
-        this.setState({
-            count: vote.data.data.count
-        })
     }
 
     render () {

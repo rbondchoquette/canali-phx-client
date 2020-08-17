@@ -13,6 +13,14 @@ class CounterThree extends React.Component {
         };
     }
 
+    componentDidMount = async () => {
+        const vote = await api.getVoteThree();
+
+        this.setState({
+            count: vote.data.data.count
+        })
+    }
+
     handleClick = async () => {
         if(wasClicked === false) {
 
@@ -30,14 +38,6 @@ class CounterThree extends React.Component {
                   .then(window.alert('Voted Counted!')) 
             }
         }
-    }
-
-    componentDidMount = async () => {
-        const vote = await api.getVoteThree();
-
-        this.setState({
-            count: vote.data.data.count
-        })
     }
 
     render () {
