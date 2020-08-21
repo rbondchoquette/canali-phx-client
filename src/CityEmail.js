@@ -1,7 +1,7 @@
 import React from 'react';
 import './CityEmail.css';
 
-let defaulttext = "Let Phoenix City Council know what you think."
+let defaulttext = "Type your thoughts and we'll generate an email for you. Don't worry, it won't send until you're ready."
 
 function sendMail(event) {
 

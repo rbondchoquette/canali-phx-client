@@ -19,7 +19,7 @@ function Explanation() {
           A worthy goal, but subject to an engineer's nearsightedness: optimize your instrument, at the expense of the larger system.
           <br/><br/> <span className='emphasis'>Our canal could be more beautiful, its true</span>. If the rules are redesigned responsibly, Phoenicians will get what they want: <span className='emphasis'>a vibrant urban canal</span>. <br/><br/> 
           Remember the threshold barrier to change: our city does not own the canal, so we must set policy on its boundaries. <br/><br/> 
-          Moreover, the canal's purpose is paramount to our aesthetic complaints: the utility must be abley to safely work with the canal.
+          Moreover, the canal's purpose is paramount to our aesthetic complaints: the utility must be able to safely work with the canal.
         </p>
     </div>
   );
